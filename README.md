@@ -1,7 +1,7 @@
-⚖️ Women's Rights Compass
+# ⚖️ Women's Rights Compass
 Women's Rights Compass is a high-impact mobile and web application designed to empower women with legal literacy. It provides direct access to legal advocates, an AI-driven legal assistant, and critical emergency support tools.
 
-🚀 Key Features
+# 🚀 Key Features
 
 📚 Knowledge Hub: A curated library of categorized articles on women's rights and legal procedures.
 🤖 AI Legal Assistant: An interactive, LLM-powered chat for immediate legal information and guidance.
@@ -9,20 +9,22 @@ Women's Rights Compass is a high-impact mobile and web application designed to e
 💬 Secure Messaging: Direct, private communication channels with legal advocates.
 🚨 Emergency Support: Instant access to emergency contacts and localized resources.
 
-🛠️ Tech Stack & Structure
+# 🛠️ Tech Stack & Structure
 The project is architected as a full-stack monorepo:
 
 Backend: FastAPI + MongoDB
 Frontend: Expo (React Native) for Cross-platform Mobile & Web.
 AI: Integration with Large Language Models (LLMs) via custom API services.
 
-⚙️ Getting Started
+# ⚙️ Getting Started
 Prerequisites
 
 Python: 3.10+
 Node.js: 18+
 
 MongoDB: Local instance or MongoDB Atlas
+
+# Setting up Project
 
 1. Backend Setup
 Bash
@@ -78,7 +80,8 @@ yarn web
 
 # For Mobile (Expo Go)
 yarn start
-📖 Development Insights
+
+# 📖 Development Insights
 Authentication & API
 Security: Uses JWT-based authentication. Users can register as either user or advocate.
 
@@ -89,13 +92,13 @@ LLM Integration: Ensure your EMERGENT_LLM_KEY is active to enable the Legal Assi
 
 Database: MongoDB handles all persistent data. Use MongoDB Compass for local visualization on port 27017.
 
-🤝 Contribution & Credits
+# 🤝 Contribution & Credits
 This project was brought to life by:
 
 Vaishnavi Shahane: The Initiator, Core Idea, and Lead Executor.
 Shyam Vyawahare: Technical Architect and Code In-charge.
 
-How to Contribute
+# How to Contribute
 Fork the repository.
 
 Create your Feature Branch (git checkout -b feature/AmazingFeature).
