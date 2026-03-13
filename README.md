@@ -104,7 +104,7 @@ Technical Architect and Code In-charge for this version.
 # 🕹 How to Contribute
 Fork the repository.
 
-Create your Feature Branch (git checkout -b feature/AmazingFeature).
-Commit your changes (git commit -m 'Add AmazingFeature').
-Push to the branch (git push origin feature/AmazingFeature).
-Open a Pull Request.
+- Create your Feature Branch (git checkout -b feature/AmazingFeature).
+- Commit your changes (git commit -m 'Add AmazingFeature').
+- Push to the branch (git push origin feature/AmazingFeature).
+- Open a Pull Request.
