@@ -93,13 +93,11 @@ LLM Integration: Ensure your EMERGENT_LLM_KEY is active to enable the Legal Assi
 
 Database: MongoDB handles all persistent data. Use MongoDB Compass for local visualization on port 27017.
 
-# 🤝 Contribution & Credits
+# 🤝 Creation of
 This project was brought to life by:
 
-## 1. 🎀 Vaishnavi Shahane
-The Initiator, Core Idea, and Lead Executor.
-## 2. 🕶 Shyam Vyawahare
-Technical Architect and Code In-charge for this version.
+## 🕶 Shyam Vyawahare
+Technical Architect, Initiator, Lead Executor and Code In-charge for this version.
 
 # 🕹 How to Contribute
 Fork the repository.
