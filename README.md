@@ -28,7 +28,7 @@ Node.js: 18+
 
 MongoDB: Local instance or MongoDB Atlas
 
-# Setting up Project
+# 💻 Setting up Project
 
 ## 1. Backend Setup
 Bash
