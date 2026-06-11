@@ -4,9 +4,13 @@ Women's Rights Compass is a high-impact mobile and web application designed to e
 # 🚀 Key Features
 
 📚 Knowledge Hub: A curated library of categorized articles on women's rights and legal procedures.
+
 🤖 AI Legal Assistant: An interactive, LLM-powered chat for immediate legal information and guidance.
+
 🔍 Advocate Directory: A verified network of legal professionals available for connection.
+
 💬 Secure Messaging: Direct, private communication channels with legal advocates.
+
 🚨 Emergency Support: Instant access to emergency contacts and localized resources.
 
 # 🛠️ Tech Stack & Structure
