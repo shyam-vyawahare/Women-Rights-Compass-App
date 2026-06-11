@@ -29,22 +29,22 @@ MongoDB: Local instance or MongoDB Atlas
 ## 1. Backend Setup
 Bash
 
-### - Navigate to the backend directory
+- Navigate to the backend directory
 cd app/backend
 
-### - Create and activate a virtual environment
+- Create and activate a virtual environment
 python -m venv .venv
-### - Windows:
+- Windows:
 .venv\Scripts\activate
-### - macOS/Linux:
+- macOS/Linux:
 source .venv/bin/activate
 
-### - Install dependencies
+- Install dependencies
 pip install -r requirements.txt
 Configure Environment Variables:
 Create a .env file in app/backend/:
 
-### - Code snippet
+- Code snippet
 
 MONGO_URL=mongodb://localhost:27017
 DB_NAME=women_rights_compass
@@ -52,7 +52,7 @@ EMERGENT_LLM_KEY=your_llm_key_here
 SECRET_KEY=your_secret_key_here
 Run the Server:
 
-### - Bash
+- Bash
 
 fastapi dev server.py
 API will be live at http://localhost:8000
@@ -60,25 +60,25 @@ API will be live at http://localhost:8000
 ## 2. Frontend Setup
 Bash
 
-### - Navigate to the frontend directory
+- Navigate to the frontend directory
 cd app/frontend
 
-### - Install dependencies
+- Install dependencies
 yarn install
 Configure Environment Variables:
 Create a .env file in app/frontend/:
 
-### - Code snippet
+- Code snippet
 
 EXPO_PUBLIC_BACKEND_URL=http://localhost:8000
 Start Development:
 
-### - Bash
+- Bash
 
-### - For Web
+- For Web
 yarn web
 
-### - For Mobile (Expo Go)
+- For Mobile (Expo Go)
 yarn start
 
 # 📖 Development Insights
