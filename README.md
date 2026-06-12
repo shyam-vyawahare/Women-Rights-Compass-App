@@ -13,12 +13,16 @@ Women's Rights Compass is a high-impact mobile and web application designed to e
 
 🚨 Emergency Support: Instant access to emergency contacts and localized resources.
 
+---
+
 # 🛠️ Tech Stack & Structure
 The project is architected as a full-stack monorepo:
 
 Backend: FastAPI + MongoDB
 Frontend: Expo (React Native) for Cross-platform Mobile & Web.
 AI: Integration with Large Language Models (LLMs) via custom API services.
+
+---
 
 # ⚙️ Getting Started
 Prerequisites
