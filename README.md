@@ -28,62 +28,104 @@ Node.js: 18+
 
 MongoDB: Local instance or MongoDB Atlas
 
-# 💻 Setting up Project
+---
 
-## 1. Backend Setup
-Bash
+# 💻 Project Setup Guide
 
-- Navigate to the backend directory
+Follow the steps below to run the Women Safety Compass project locally.
+
+---
+
+🔧 Backend Setup
+
+1️⃣ Navigate to the Backend Directory
+
 cd app/backend
 
-- Create and activate a virtual environment
+2️⃣ Create a Virtual Environment
+
 python -m venv .venv
-- Windows:
+
+3️⃣ Activate the Virtual Environment
+
+Windows
+
 .venv\Scripts\activate
-- macOS/Linux:
+
+macOS / Linux
+
 source .venv/bin/activate
 
-- Install dependencies
-pip install -r requirements.txt
-Configure Environment Variables:
-Create a .env file in app/backend/:
+4️⃣ Install Required Dependencies
 
-- Code snippet
+pip install -r requirements.txt
+
+5️⃣ Configure Environment Variables
+
+Create a file named ".env" inside:
+
+app/backend/
+
+Add the following configuration:
 
 MONGO_URL=mongodb://localhost:27017
 DB_NAME=women_rights_compass
 EMERGENT_LLM_KEY=your_llm_key_here
 SECRET_KEY=your_secret_key_here
-Run the Server:
 
-- Bash
+6️⃣ Start the Backend Server
 
 fastapi dev server.py
-API will be live at http://localhost:8000
 
-## 2. Frontend Setup
-Bash
+✅ Backend API will be available at:
 
-- Navigate to the frontend directory
+http://localhost:8000
+
+---
+
+📱 Frontend Setup
+
+1️⃣ Navigate to the Frontend Directory
+
 cd app/frontend
 
-- Install dependencies
-yarn install
-Configure Environment Variables:
-Create a .env file in app/frontend/:
+2️⃣ Install Dependencies
 
-- Code snippet
+yarn install
+
+3️⃣ Configure Environment Variables
+
+Create a file named ".env" inside:
+
+app/frontend/
+
+Add the following configuration:
 
 EXPO_PUBLIC_BACKEND_URL=http://localhost:8000
-Start Development:
 
-- Bash
+4️⃣ Start the Application
 
-- For Web
+🌐 Run on Web
+
 yarn web
 
-- For Mobile (Expo Go)
+📲 Run on Mobile (Expo Go)
+
 yarn start
+
+---
+
+🚀 You're Ready!
+
+Once both servers are running:
+
+- ✅ Backend API → "http://localhost:8000"
+- ✅ Frontend Web App → Opens automatically in your browser
+- ✅ Mobile App → Scan the Expo QR Code using Expo Go
+
+Enjoy exploring Women Safety Compass 🎉
+
+---
 
 # 📖 Development Insights
 ## Authentication & API
